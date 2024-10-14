@@ -136,9 +136,6 @@ fun LemonTextAndImage(
     onImageClick: () -> Unit
 ) {
     val image = painterResource(id = imageId)
-//    var next_Step by remember {
-//        mutableIntStateOf(nextStep)
-//    }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
